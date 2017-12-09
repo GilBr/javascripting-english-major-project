@@ -1,6 +1,17 @@
 The JavaScripting English Major
 Ch2. JS Calculator
 
+Récap directives/syntaxe
+  console.log() : console = console ouverte, log() = méthode
+  let : définition variable (nécessite ensuite assignation)
+  typeof : vérification type de données
+  "" pour chaine
+  ; en fin de directive
+  = assignation de variable
+  \ banalisation caractère, ex \"
+  , séparateur variable/chaine
+
+
 1.Types de données
 
 6 possibilités, 4 premieres seront utilisées
@@ -33,20 +44,25 @@ Compléments :
   * si calcul chaine + nombre ou nombre + chaine => résultat = chaine
 
 3. Variables
-  * Définition avec let => let var;
+  * Définition avec let => let var1;
       - Définition multiples possibles => let var1, var2, var3;
       - Conseillé en début de fichier
+      - Utiliser var à la place sur anciennes consoles
   * Puis assignation valeur avec '=' => var = donnee;
       - Assignation variable 1 par 1
   * Variables utilisées pour calcul/comparaisons
   * Variables modifiables par calcul => age = age + 1
+  * Affichage plusieurs variables/chaine en séparant par ,
   * Vérification du type de données avec typeof
       => renvoie string, number, boolean, undefined
 
-  Compléments :
-    * Saut de ligne dans chaine avec \n
+Compléments :
+  * Saut de ligne dans chaine avec \n
 
-Récap directives
-  console.log() => console = console ouverte, log() = méthode
-  let => définition variable (nécessite ensuite assignation)
-  
+Exercices
+  * Découverte + utilisation modulo => %
+  * Calcul avec décimale type 0.1 ne tombe pas juste
+    => valeurs < 1 posent problème pour langages
+  * Calcul chaine + nombre => chaine
+  * Affichage chaine et variables avec console.log()
+      > console.log("chaine1", var, "chaine2")
