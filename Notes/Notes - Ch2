@@ -6,7 +6,7 @@ Récap directives/syntaxe
   let : définition variable (nécessite ensuite assignation)
   typeof : vérification type de données
   "" pour chaine
-  ; en fin de directive
+  ; fin de directive
   = assignation de variable
   \ banalisation caractère, ex \"
   , séparateur variable/chaine

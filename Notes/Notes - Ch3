@@ -1,0 +1,25 @@
+The JavaScripting English Major
+Ch3 - Programming
+
+1.Control flow
+  * Pseudocode - condition if/then
+  * Operateurs : === et !== (exactement différent)
+
+2. If statements
+* Condition if/then/otherwise en JS
+    if (condition) {
+      action_true;
+    } else {
+      action_false;
+    }
+    /!\ pas de ; pour {}
+
+3. Embedding JavaScript in a webpage
+  * Utilisation fichier index.html
+    - à lancer directement depuis le répertoire github/nom_projet du $HOME
+  * Modification texte => balises <h1></h1>
+4. While and for loops
+   While loops
+   For loops
+
+Exercises
