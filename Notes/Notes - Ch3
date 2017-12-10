@@ -1,6 +1,20 @@
 The JavaScripting English Major
 Ch3 - Programming
 
+Récap directives/syntaxe
+  *JS
+  if ( condition ) { action_true; } else { action_false; }
+    => test condition puis actions si true ou false
+  alert("message");
+    => affichage boite de message
+  $("#valeur_div").html("message")
+    => modification HTML page via scripts appelés après <div>
+  * HTML
+  <h1> => affichage titre
+  <div id="chaine"> => conteneur avec id pour positionnement dans page
+  <script src=chemin> => appel script JS HTTP ou local
+    => enchainement plusieurs scripts possible
+
 1.Control flow
   * Pseudocode - condition if/then
   * Operateurs : === et !== (exactement différent)
@@ -20,12 +34,23 @@ Ch3 - Programming
   * Modification texte => balises <h1></h1>
   * Insertion appel scripts JS - jQuery
     - Container <div>
-      <div id="#chaine">Commentaire affiché</div>
-      => rappel valeur avec #chaine
+      <div id="chaine">Commentaire affiché</div>
+      => Appel <div> dans script JS avec #chaine
     - Source script JS <script>
       <script src="chemin_fichier"></script>
       => chemin absolu en HTTP ou chemin relatif = fichier local
-      => appel jQuery puis script local à créer
+      => appel bibli jQuery puis script local à créer
+  * Création scripts.js
+    - directive alert("message"); => boite de dialogue
+    - directive console.log("message"); => dans console navigateur
+    - appel jQuery
+  * Utilisation jQuery dans scripts.js
+    $("#response").html("message");
+    Avec :
+      $("") pour sélectionner élement page avec jQ
+      => jQuery selector, bout de code le plus important
+      #response => correspond à conteneur id posé dans index.html
+      .html("message"); => modification HTML = affichage message
 
 
 
