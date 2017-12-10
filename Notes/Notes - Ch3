@@ -18,6 +18,17 @@ Ch3 - Programming
   * Utilisation fichier index.html
     - à lancer directement depuis le répertoire github/nom_projet du $HOME
   * Modification texte => balises <h1></h1>
+  * Insertion appel scripts JS - jQuery
+    - Container <div>
+      <div id="#chaine">Commentaire affiché</div>
+      => rappel valeur avec #chaine
+    - Source script JS <script>
+      <script src="chemin_fichier"></script>
+      => chemin absolu en HTTP ou chemin relatif = fichier local
+      => appel jQuery puis script local à créer
+
+
+
 4. While and for loops
    While loops
    For loops
